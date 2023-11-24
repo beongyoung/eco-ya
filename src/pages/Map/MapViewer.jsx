@@ -1,3 +1,4 @@
+import KakaoMap from "./KakaoMap.jsx";
 import styled from "styled-components";
 
 const Container = styled.div`
@@ -11,7 +12,7 @@ const Container = styled.div`
 function Home() {
   return (
     <Container>
-      <h1>Home</h1>
+      <KakaoMap />
     </Container>
   );
 }
