@@ -9,8 +9,8 @@ function Router() {
       <NavigationBar />
       <Routes>
         <Route exact path="/" element={<Home />} />
-        <Route path="/map" element={<Home />} />
-        <Route path={"*"} element={<Home />} />
+        <Route path="/map" element={"Map"} />
+        <Route path={"*"} element={"404 NOT FOUND"} />
       </Routes>
       <Footer />
     </BrowserRouter>
