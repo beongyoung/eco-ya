@@ -28,13 +28,10 @@ function SignUpPage() {
 
     try {
       // Use Axios to make a POST request
-      const response = await axios.post(
-        "http://118.67.132.232:8080/api/user/join",
-        {
-          userId: id,
-          password: password,
-        }
-      );
+      const response = await axios.post("http://34.145.91.229:8080/user/join", {
+        userId: id,
+        password: password,
+      });
 
       // Handle the response data, e.g., show a message based on success or failure
       console.log(response.data);

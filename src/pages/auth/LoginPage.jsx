@@ -37,7 +37,7 @@ function LoginPage() {
 
     try {
       const response = await axios.post(
-        "http://118.67.132.232:8080/api/user/login",
+        "http://34.145.91.229:8080/user/login",
         {
           userId: user_id,
           password: user_pw,
